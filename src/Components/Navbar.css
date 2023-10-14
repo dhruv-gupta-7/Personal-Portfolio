@@ -1,0 +1,12 @@
+@media screen and (max-width: 515px){
+    #navBtn {
+     display: none;
+
+    }
+}
+
+@media screen and (min-width: 480px){
+    #menuBtn{
+        display: none;
+    }
+}

@@ -1,0 +1,34 @@
+#material-ui{
+    padding-left: 1rem;
+}
+
+@media screen and (max-width: 1050px){
+
+    .muiBox{
+        padding: 6px 10rem 6px 5.8rem;
+        width: 6rem;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 430px){
+
+    #headerWrapper{
+        position: relative;
+        top: -1rem
+    }
+}
+
+#iconsBox:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+  }
+  
+  #iconsBox img {
+    transition: transform 0.3s ease;
+  }
+  
+  #iconsBox:hover img {
+    transform: scale(1.2); 
+  }
+  

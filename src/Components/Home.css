@@ -1,0 +1,53 @@
+#portfolioBtn{
+    background-image: linear-gradient(to right, #05c2e8, #4250c9);
+    padding: 5px 15px;
+    padding-left: 20px;
+    margin-top: 0.9rem;
+}
+
+#img{
+    background-image: linear-gradient(to right, #05c2e8, #4250c9);
+    border-radius: 1rem;
+    position: relative;
+    margin-left: 4rem;
+    float: right;
+   }
+
+   @media screen and (max-width: 760px){
+
+    #description{
+        color: red;
+        font-size: 11px;
+        margin-left: 2.8rem;
+    } 
+    #imgContainer {
+        position: relative;
+        left: -13.28rem;
+        top: 8rem; 
+        
+    }
+
+    #portfolioBtn{
+        margin-left: 2.9rem;
+    }
+
+    #contentWrapper{
+        display: flex;
+        position: relative;
+        top: -13rem;
+        left: 10.265rem;
+    }
+
+    #tagline {
+        font-size: 2.5rem;
+        margin-left: 2.7rem;
+    
+
+    #taglPart2{
+        font-size: 2.5rem;
+        margin-left: 3rem;
+    }
+        
+}
+       
+   }
