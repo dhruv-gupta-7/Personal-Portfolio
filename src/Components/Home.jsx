@@ -15,7 +15,7 @@ const Home = () => {
 
   const handleDownloadClick = () => {
     const anchor = document.createElement("a");
-    anchor.href = "https://drive.google.com/u/3/uc?id=1N8Fdqd9gH--JNvgjmdZBAPlOw5JUiQt1&export=download";
+    anchor.href = "https://drive.google.com/u/0/uc?id=1o_QnMsSAxGrGoS5Vq5AMvFiNJLC_yA10&export=download";
     anchor.download = "Resume.pdf"; 
     anchor.click();
   };
