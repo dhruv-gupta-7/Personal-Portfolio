@@ -13,7 +13,7 @@ const SidebarIcons = () => {
       <nav>
         <ul>
           <li>
-            <a className='sidebarIcons' href="https://www.linkedin.com/in/dhruv-gupta-b31477204/" target="_blank" rel="noreferrer">
+            <a className='sidebarIcons' href="https://www.linkedin.com/in/dhruvgupta828/" target="_blank" rel="noreferrer">
               <Tooltip TransitionComponent={Zoom} arrow placement="right-end" title="LinkedIn">
                 <LinkedInIcon sx={{ display: 'block' }} />
               </Tooltip>
